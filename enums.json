@@ -1,0 +1,16 @@
+{
+	"target": "src/shared/Enums",
+	"enums": {
+		"Directions": [
+			"Up",
+			"Down",
+			"Left",
+			"Right",
+			"Forward",
+			"Backward"
+		],
+		"Tags": [
+			"SpaceshipVehicle"
+		]
+	}
+}
