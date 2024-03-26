@@ -17,10 +17,9 @@ func main() {
 	filename := "test.json"
 	fileData, err := os.ReadFile(filename)
 	if err != nil {
-		fmt.Sprintf("Error reading file %s: %s", filename, err.Error())
+		fmt.Printf("Error reading file %s: %s\n", filename, err.Error())
 		return
 	}
 
 	err = json.Unmarshal(fileData, nil)
-	return
 }
