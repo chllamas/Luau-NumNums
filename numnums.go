@@ -48,7 +48,7 @@ func main() {
 		defer file.Close()
 
 		var tblOutput string
-		typeOutput := fmt.Sprintf("type %s = ", enumName)
+		typeOutput := fmt.Sprintf("export type %s = ", enumName)
 		for i := range enumArr {
 			elem := enumArr[i]
 			if i > 0 {
