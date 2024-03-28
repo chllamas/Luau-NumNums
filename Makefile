@@ -1,5 +1,5 @@
 all:
-	go build -o numnum cmd/numnum/numnum.go
+	go build -o numnums numnums.go
 
 test:
-	go run cmd/numnum/numnum.go
+	go run numnums.go
